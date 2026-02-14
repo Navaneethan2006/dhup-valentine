@@ -8,10 +8,10 @@ const photos = [
 "assets/photos/7.jpeg",
 "assets/photos/8.jpeg",
 "assets/photos/9.jpeg",
-"assets/photos/13.jpeg",
 "assets/photos/10.jpeg",
 "assets/photos/11.jpeg",
 "assets/photos/12.jpeg",
+"assets/photos/13.jpeg",
 "assets/photos/14.jpeg"
 ];
 
@@ -151,3 +151,4 @@ finalBtn.addEventListener("click", () => {
 
 /* LOAD FIRST SLIDE IMMEDIATELY */
 loadSlide();
+

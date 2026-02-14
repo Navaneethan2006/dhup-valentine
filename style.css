@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #ffeaf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: linear-gradient(to bottom, #fff9fc, #ffeef7);
+    border-radius: 22px;
+    padding: 60px 70px;
+    text-align: center;
+    box-shadow: 0 30px 60px rgba(255, 105, 180, 0.25);
+    border: 2px solid #ffb6d9;
+    max-width: 700px;
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 58px;
+    color: #ff4d88;
+}
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #d63384;
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Baby GIFs */
+.baby {
+    width: 120px;
+    transition: all 0.3s ease;
+}
+
+/* Initial state */
+#happyBaby {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+#sadBaby {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Buttons */
+button {
+    padding: 15px 45px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#yesBtn {
+    background: linear-gradient(135deg, #ff4da6, #ff80bf);
+    color: white;
+}
+
+#noBtn {
+    background: white;
+    color: #ff4da6;
+    border: 2px solid #ff4da6;
+}
